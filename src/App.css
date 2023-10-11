@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the Header */
+.nav-bar {
+    background: #1b1919;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    top: 0;
+}
+
+/* Styling the App */
+.app {
+    margin: 70px 10%;
+    margin-bottom: 135px;
+}
+
+.app .todo {
+    padding: 5px;
+    text-align: justify;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.app .todo label input[type="checkbox" i] {
+    margin-right: 5px;
+}
+
+.app .down {
+    background: #1b1919;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: 135px;
+}
+
+.app input[type=text] {
+    display: flex;
+    margin: 10px 0;
+    border-radius: 10px;
+    height: 20px;
+    position: fixed;
+    bottom: 60px;
+    left: 5%;
+    padding: 10px;
+    font-size: medium;
+    right: 5%;
+    background: #fff;
+}
+
+.app .buttons {
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    bottom: 20px;
+    position: fixed;
+    left: 5%;
+    right: 5%;
+}
+
+.app .buttons .add {
+    font-size: large;
+    background: rgb(19, 136, 25);
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.app .buttons .add:hover {
+    background: rgb(19, 87, 22);
+}
+
+.app .buttons .clear {
+    font-size: large;
+    background: rgb(187, 16, 16);
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.app .buttons .clear:hover {
+    background: rgb(126, 16, 16);
+}
+
+.app .remain {
+    position: fixed;
+    bottom: 5px;
+    left: 5%;
+    color: #fff;
+}
